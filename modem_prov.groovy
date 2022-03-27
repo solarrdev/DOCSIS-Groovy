@@ -1,6 +1,6 @@
-/*************
- * Defaultss *
- *************/
+/************
+ * Defaults *
+ ************/
 
 def TLV = option.&createOptionValue
 def TLV11 = { name, value -> return TLV("11", [name, "TYPE", value]) }
